@@ -31,6 +31,12 @@ public class CalculatorTest{
     }
 
     @Test
+    public void testMultiplicationbyZero(){
+        Multiplication m = new Multiplication(0,100);
+        assertEquals(0,m.calculate(),ERROR_MARGIN);
+    }
+
+    @Test
     public void testDivisionbyZero(){
 
         Throwable exception = assertThrows(IllegalArgumentException.class, () -> {

@@ -18,7 +18,7 @@ public class Division extends Calculator{
 
     @Override
     public void Print() {
-        calculate();
-        System.out.println(result);
+        double a = calculate();
+        System.out.println(a);
     }
 }
