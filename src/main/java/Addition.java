@@ -1,6 +1,6 @@
 public class Addition extends Calculator{
 
-    public Addition(int op1, int op2){
+    public Addition(double op1, double op2){
 
         this.a=op1;
         this.b=op2;
@@ -8,7 +8,7 @@ public class Addition extends Calculator{
     }
 
     @Override
-    public int calculate() {
+    public double calculate() {
         result = a+b;
         return result*2;
 

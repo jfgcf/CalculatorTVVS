@@ -1,10 +1,10 @@
 public abstract class Calculator {
 
-    int a;
-    int b;
-    int result;
+    double a;
+    double b;
+    double result;
 
-    public abstract int calculate();
+    public abstract double calculate();
     public abstract void Print();
 
 
@@ -17,6 +17,10 @@ public abstract class Calculator {
         //subtraction has to return -1
         Subtraction s = new Subtraction(1,2);
         s.Print();
+
+        //multiplication has to return 1024
+        Multiplication m = new Multiplication(256,4);
+        m.Print();
     }
 
 }

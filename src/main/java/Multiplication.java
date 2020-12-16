@@ -1,6 +1,6 @@
-public class Subtraction extends Calculator{
+public class Multiplication extends Calculator{
 
-    public Subtraction(double op1, double op2){
+    public Multiplication(double op1, double op2){
 
         this.a=op1;
         this.b=op2;
@@ -8,9 +8,9 @@ public class Subtraction extends Calculator{
     }
 
     @Override
-    public double calculate() {
-        result=a+b;
-        return result;
+    public double calculate(){
+        result=a*b;
+        return -result;
     }
 
     @Override
