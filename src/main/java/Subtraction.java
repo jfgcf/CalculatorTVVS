@@ -9,7 +9,7 @@ public class Subtraction extends Calculator{
 
     @Override
     public int calculate() {
-        result=a-b;
+        result=a+b;
         return result;
     }
 
