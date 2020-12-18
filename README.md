@@ -1,6 +1,8 @@
 # CalculatorTVVS
 
-## NOTE: Class has ended bugs are now fixed, you can still find the solution with bugs on the "withbugs" branch of this repo.
+
+## NOTE: Class has ended, bugs are now fixed you can still find the solution with bugs on the "withbugs" branch of this repo.
+
 
 ### INFO
 This project is full of bugs on purpose so that the students can fix them in the exercise.
