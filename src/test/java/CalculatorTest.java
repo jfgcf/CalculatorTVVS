@@ -55,7 +55,7 @@ public class CalculatorTest{
     @Test
     public void testFractionDivision(){
         Division d = new Division(-1,2);
-        assertEquals(0.5,d.calculate(),ERROR_MARGIN);
+        assertEquals(-0.5,d.calculate(),ERROR_MARGIN);
     }
 
     @Test

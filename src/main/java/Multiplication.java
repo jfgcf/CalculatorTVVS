@@ -10,7 +10,7 @@ public class Multiplication extends Calculator{
     @Override
     public double calculate(){
         result=a*b;
-        return -result;
+        return result;
     }
 
     @Override

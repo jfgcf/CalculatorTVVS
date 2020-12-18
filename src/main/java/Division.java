@@ -9,11 +9,11 @@ public class Division extends Calculator{
 
     @Override
     public double calculate() {
-        if(b<0){
+        if(b==0){
             throw new IllegalArgumentException("Divide by zero error");
         }
         result=a/b;
-        return -result;
+        return result;
     }
 
     @Override

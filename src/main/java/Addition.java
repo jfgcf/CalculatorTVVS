@@ -10,7 +10,7 @@ public class Addition extends Calculator{
     @Override
     public double calculate() {
         result = a+b;
-        return result*2;
+        return result;
 
     }
 
